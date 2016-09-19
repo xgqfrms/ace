@@ -143,7 +143,7 @@ console.log(addResult);
                         <div class="tab-pane fade active in" id="embedding">
                             <h1>Embedding Ace in Your Site</h1>
                             <p>Ace can be easily embedded into a web page. Get prebuilt version of ace from 
-                            <a href="https://github.com/ajaxorg/ace-builds/">ace-builds</a> repository and use the code below:</p>
+                            <a href="https://github.com/xgqfrms/ace-builds/">ace-builds</a> repository and use the code below:</p>
                                 <pre id="embedded_ace_code" style="opacity:0">&lt;!DOCTYPE html>
 &lt;html lang="en">
 &lt;head>
@@ -179,7 +179,7 @@ console.log(addResult);
                             </p>
                             <h2>Loading Ace from a Local URL</h2>                            
                             <p>If you want to clone and host Ace locally you can
-                                use one of the <a href="https://github.com/ajaxorg/ace-builds/">pre-packaged versions</a>. Just copy
+                                use one of the <a href="https://github.com/xgqfrms/ace-builds/">pre-packaged versions</a>. Just copy
                                 one of <code>src*</code> subdirectories somewhere into your project, or use RequireJS to load the
                                 contents of <a href="https://github.com/ajaxorg/ace/tree/master/lib/ace">lib/ace</a> folder as <code>ace</code>:
                             </p>
@@ -268,13 +268,13 @@ editor.findPrevious();</code></pre>
                                     <code>wholeWord</code>: Whether the search matches only on whole words. Defaults to <code>false</code>.
                                 </li>
                                 <li>
-                                    <code>range</code>: The <a class="internal absent" href="/ajaxorg/ace/wiki/Range">Range</a> to search within. Set this to <code>null</code> for the whole document
+                                    <code>range</code>: The <a class="internal absent" href="/xgqfrms/ace/wiki/Range">Range</a> to search within. Set this to <code>null</code> for the whole document
                                 </li>
                                 <li>
                                     <code>regExp</code>: Whether the search is a regular expression or not. Defaults to <code>false</code>.
                                 </li>
                                 <li>
-                                    <code>start</code>: The starting <a class="internal absent" href="/ajaxorg/ace/wiki/Range">Range</a> or cursor position to begin the search
+                                    <code>start</code>: The starting <a class="internal absent" href="/xgqfrms/ace/wiki/Range">Range</a> or cursor position to begin the search
                                 </li>
                                 <li>
                                     <code>skipCurrent</code>: Whether or not to include the current line in the search. Default to <code>false</code>.
@@ -489,7 +489,7 @@ var fonts = lang.arrayToMap(
                                 will take an existing <em>tmlanguage</em> file and do its best to convert it into Javascript for Ace to consume. Here's what you need to get started:
                             </p>
                             <ol>
-                                <li>In the Ace repository, navigate to the <em><a href="https://github.com/ajaxorg/ace/tree/master/tool">tools</a></em> folder.</li>
+                                <li>In the Ace repository, navigate to the <em><a href="https://github.com/xgqfrms/ace/tree/master/tool">tools</a></em> folder.</li>
                                 <li>Run <code>npm install</code>  to install required dependencies.</li>
                                 <li>Run <code>node tmlanguage.js &lt;path_to_tmlanguage_file&gt;</code>; for example, <code>node &lt;path_to_tmlanguage_file&gt; /Users/Elrond/elven.tmLanguage</code></li>
                             </ol>
@@ -638,7 +638,7 @@ if (match) {
                             <p>The best way to test your tokenizer is to see it live, right? To do that, you&#39;ll want to modify the <a href="build/kitchen-sink.html">live Ace demo</a> to preview your changes. You can find this file in the root Ace directory with the name <em>kitchen-sink.html</em>.</p>
                             <ol>
                                 <li>
-                                    add an entry to <code>supportedModes</code> in <a href="https://github.com/ajaxorg/ace/blob/master/lib/ace/ext/modelist.js#L53"><code>ace/ext/modelist.js</code></a>
+                                    add an entry to <code>supportedModes</code> in <a href="https://github.com/xgqfrms/ace/blob/master/lib/ace/ext/modelist.js#L53"><code>ace/ext/modelist.js</code></a>
                                 </li>
                                 <li>
                                     <p>add a sample file to <code>demo/kitchen-sink/docs/</code> with same name as the mode file
